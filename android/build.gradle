@@ -7,7 +7,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0'
+        classpath 'com.android.tools.build:gradle:2.3.3'
     }
 }
 
@@ -36,6 +36,6 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.braintreepayments.api:drop-in:3.+'
-    implementation 'com.facebook.react:react-native:+'
+    compile 'com.braintreepayments.api:drop-in:3.+'
+    compile 'com.facebook.react:react-native:+'
 }
